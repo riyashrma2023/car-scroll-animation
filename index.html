@@ -1,0 +1,59 @@
+[8:41 am, 03/10/2026] ~💫: <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Scroll-Driven Hero Section</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- GSAP और ScrollTrigger लाइब्रेरी CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+</head>
+<body>
+
+  <section class="hero-container">
+    <div class="hero-content">
+      <h1 class="headline">W E L C O M E &nbsp; I T Z F I Z Z</h1>
+      
+      <div class="stats-grid">
+        <div class="stat-card">
+          <h2 class="stat-number">99%</h2>
+          <p class="stat-desc">Client Satisfaction Rate</p>
+        </div>
+        <div class="stat-card">
+          <h2 class="stat-number">85%</h2>
+          <p class="stat-desc">Performance Boost</p>
+        </div>
+        <div class="stat-card">
+          <h2 class="stat-number">95%</h2>
+          <p class="stat-desc">Smooth UI Transitions</p>
+        </div>
+      </div>
+    </div>
+
+  <div class="car-wrapper" id="car">
+      <svg viewBox="0 0 300 600" width="100%" height="auto" xmlns="http://www.w3.org/2000/svg">
+        <ellipse cx="150" cy="300" rx="110" ry="260" fill="rgba(0,0,0,0.6)" filter="blur(15px)" />
+        <rect x="50" y="70" width="200" height="460" rx="90" fill="#e11d48" />
+        <rect x="70" y="170" width="160" height="230" rx="45" fill="#111827" />
+        <path d="M 85 220 L 215 220 L 205 180 L 95 180 Z" fill="#38bdf8" opacity="0.8" />
+        <path d="M 85 350 L 215 350 L 205 385 L 95 385 Z" fill="#38bdf8" opacity="0.6" />
+        <rect x="73" y="235" width="14" height="100" rx="5" fill="#38bdf8" opacity="0.6" />
+        <rect x="213" y="235" width="14" height="100" rx="5" fill="#38bdf8" opacity="0.6" />
+        <polygon points="65,95 85,90 85,120 65,115" fill="#fef08a" />
+        <polygon points="235,95 215,90 215,120 235,115" fill="#fef08a" />
+        <rect x="70" y="515" width="40" height="12" rx="4" fill="#991b1b" />
+        <rect x="190" y="515" width="40" height="12" rx="4" fill="#991b1b" />
+        <rect x="142" y="70" width="16" height="460" fill="#ffffff" opacity="0.85" />
+      </svg>
+    </div>
+  </section>
+
+  <section class="next-section">
+    <h2>Experience The Drive</h2>
+    <p>Scroll up and down to see smooth motion.</p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
